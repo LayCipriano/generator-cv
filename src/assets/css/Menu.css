@@ -1,0 +1,59 @@
+.menu {
+    width: 280px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #CA3E47;
+    color: #F9F3F3;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 20%
+}
+
+.title {
+    font-size: 20px;
+    margin-left: .7rem;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.logotipo {
+    width: 70px;
+    height: 70px;
+    border-radius: 3px;
+}
+
+.menuItems {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.iconMenu {
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    margin: 0 .5rem 0 0;
+}
+
+.dadosPessoais,
+.educacao,
+.xProfissional,
+.goals,
+.skills {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 12px;
+    padding: 1rem 1.5rem;
+}
+
+.dadosPessoais {
+    background-color: #525252;
+}

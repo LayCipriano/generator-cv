@@ -1,0 +1,59 @@
+.main {
+    background-color: #525252;
+    display: grid;
+    grid-template-columns: 200px 1fr; /* Define duas colunas, a primeira para o Menu e a segunda para o conteúdo */
+
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.titleGeral {
+    color:#CA3E47;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 2rem;
+    width: 800px;
+}
+
+.inputForm {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: .5rem;
+    
+    border: none;
+    background-color: #414141;
+    box-shadow: 3px 2px 7px rgba(65, 65, 65, 0.5);
+    outline: none;
+    color: #f9f3f3;
+    border-radius: 3px;
+}
+
+.inputForm::placeholder {
+    color: rgb(249, 243, 243, .5);
+}
+
+.btnProximo {
+    background-color: #313131;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    text-transform: uppercase;
+}
+
+.btnProximo:hover {
+    transition: .5s ease-in-out;
+    background-color: #CA3E47;
+}
