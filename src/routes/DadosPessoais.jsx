@@ -1,4 +1,4 @@
-import Menu from './Menu.jsx';
+import Menu from '../routes/Menu.jsx';
 import '../assets/css/DadosPessoais.css';
 
 
