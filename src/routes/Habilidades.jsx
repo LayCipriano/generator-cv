@@ -1,7 +1,7 @@
-import Menu from "./Menu.jsx";
-import './DadosPessoais.css';
-import './Educacao.css';
-import './MetasProfissionais.css';
+import Menu from "../routes/Menu.jsx";
+import '../assets/css/DadosPessoais.css';
+import '../assets/css/Educacao.css';
+import '../assets/css/MetasProfissionais.css'
 
 function Skills() {
     return (

@@ -1,7 +1,7 @@
-import Menu from "./Menu.jsx";
-import './MetasProfissionais.css';
-import './DadosPessoais.css';
-import './Educacao.css';
+import Menu from "../routes/Menu.jsx";
+import '../assets/css/DadosPessoais.css';
+import '../assets/css/Educacao.css';
+import '../assets/css/MetasProfissionais.css'
 
 function Metas() {
     return (

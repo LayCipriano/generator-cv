@@ -7,6 +7,10 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import Home from './routes/DadosPessoais.jsx';
 import Educacao from './routes/Educacao.jsx';
+import XProfissional from './routes/xProfissionais.jsx';
+import Metas from './routes/MetasProfissionais.jsx';
+import Habilidades from './routes/Habilidades.jsx';
+import Download from './routes/Download.jsx';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +24,22 @@ const router = createBrowserRouter([
       {
         path: "/educacao",
         element: <Educacao/>
+      },
+      {
+        path: "/xProfissionais",
+        element: <XProfissional/>
+      },
+      {
+        path: "/metasProfissionais",
+        element: <Metas/>
+      },
+      {
+        path: "/habilidades",
+        element: <Habilidades/>
+      },
+      {
+        path: "/download",
+        element: <Download/>
       }
     ]
   },
