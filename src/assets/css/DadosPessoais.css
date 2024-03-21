@@ -17,6 +17,7 @@
     color:#CA3E47;
     text-align: center;
     line-height: 1.5rem;
+    margin-top: 10px;
 }
 
 .form {
@@ -56,4 +57,40 @@
 .btnProximo:hover {
     transition: .5s ease-in-out;
     background-color: #CA3E47;
+}
+
+
+@media (max-width: 1200px) {
+    .form {
+        width: 480px;
+    }
+
+    .titleGeral {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 890px) {
+    .menu {
+        visibility: hidden;
+    }
+
+    .main {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .data {
+        position: fixed;
+        height: auto;
+    }
+
+    .btn {
+        margin-bottom: 10px;
+    }
+
+    .titleGeral {
+        margin-top: 10px;
+    }
 }
